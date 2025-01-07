@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-image: url('quiz8.jpg');
+            background-size: cover;          
+        }
+        
+    </style>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="registration_student.php" method="POST">
+
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" autocomplete="off" required>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" autocomplete="off" required>
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" autocomplete="off"required>
+
+            <label for="username">Username:</label>
+            <input type="text" name="username" autocomplete="off" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" autocomplete="off" required>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </form>
+        <p>Already have an Account ?<a href="login_student.html"> Back to login</a></p>
+    </div>
+</body>
+</html>
